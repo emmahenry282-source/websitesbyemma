@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive Portfolio Website</title>
+    </head>
+    <body>
+        <div class="page-shell">
+            <div class="portfolio-app">
+                <main class="content-panel">
+                    <header class="header" id="header">
+                        <nav class="nav">
+                            <a href="#" class="nav__logo">Emma</a>
+
+                            <div class="nav__actions">
+                                <button class="theme-button" id="theme-button" aria-label="Toggle theme">
+                                    <i class="uil uil-moon"></i>
+                                </button>
+
+                                <button class="nav__toggle" id="nav-toggle" aria-label="Open menu">
+                                    <i class="uil uil-bars"></i>
+                                </button>
+                            </div>
+
+                            <div class="nav__menu" id="nav-menu">
+                                <ul class="nav__list">
+                                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                                    <li class="nav__item"><a href="#portfolio" class="nav__link">Portfolio</a></li>
+                                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                                </ul>
+                                <button class="nav__close" id="nav-close" aria-label="Close menu">
+                                    <i class="uil uil-times"></i>
+                                </button>
+                            </div>
+                        </nav>
+                    </header>
+
+                    <section class="home section" id="home">
+                        <div class="home__content">
+                            <div class="home__intro">
+                                <div class="home__greeting">
+                                    <span class="greeting-icon">👋</span>
+                                </div>
+                                <h1 class="home__title">Hi, I'am Emma</h1>
+                                <h3 class="home__subtitle">Full Stack Developer</h3>
+                                <p class="home__description">
+                                    High level experience in web design and development knowledge, producing quality work.
+                                </p>
+                                <div class="home__actions">
+                                    <a href="#contact" class="button button--primary">Contact Me <i class="uil uil-message"></i></a>
+                                </div>
+                                <div class="home__social">
+                                    <a href="https://www.linkedin.com/" target="_blank" class="home__social-icon"><i class="uil uil-linkedin-alt"></i></a>
+                                    <a href="https://dribbble.com/" target="_blank" class="home__social-icon"><i class="uil uil-dribbble"></i></a>
+                                    <a href="https://github.com/" target="_blank" class="home__social-icon"><i class="uil uil-github-alt"></i></a>
+                                </div>
+                                <div class="scroll-down">Scroll down <i class="uil uil-arrow-down"></i></div>
+                            </div>
+                            <div class="profile-visual">
+                                <div class="profile__circle">
+                                    <img src="assets/img/perfil.png" alt="Emma portrait">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="about section" id="about">
+                        <div class="section-heading">
+                            <h2>About Me</h2>
+                            <span>My introduction</span>
+                        </div>
+
+                        <div class="about__content">
+                            <div class="about__image">
+                                <img src="assets/img/about.jpg" alt="About Emma">
+                            </div>
+
+                            <div class="about__text">
+                                <p>
+                                    Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.
+                                </p>
+
+                                <div class="about__stats">
+                                    <div class="stat-item">
+                                        <strong>08+</strong>
+                                        <span>Years <br> experience</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <strong>20+</strong>
+                                        <span>Completed <br> project</span>
+                                    </div>
+                                    <div class="stat-item">
+                                        <strong>05+</strong>
+                                        <span>Companies <br> worked</span>
+                                    </div>
+                                </div>
+
+                                <a href="assets/pdf/Emma_Henry_CV.docx" class="button button--secondary" target="_blank" rel="noopener noreferrer" download="Emma_Henry_CV.docx">Download CV <i class="uil uil-download-alt"></i></a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section class="skills section" id="skills">
+                        <div class="section-heading">
+                            <h2>Skills</h2>
+                            <span>My technical level</span>
+                        </div>
+
+                        <div class="skills__grid">
+                            <div class="skill-box">
+                                <div class="skill-box__header">
+                                    <div class="skill-title">Full Stack Development</div>
+                                    <i class="uil uil-angle-up"></i>
+                                </div>
+                                <div class="skill-list">
+                                    <div class="skill-row">
+                                        <span>HTML/CSS</span>
+                                        <span>92%</span>
+                                    </div>
+                                    <div class="progress"><span style="width: 92%"></span></div>
+                                    <div class="skill-row">
+                                        <span>JavaScript</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="progress"><span style="width: 90%"></span></div>
+                                    <div class="skill-row">
+                                        <span>React</span>
+                                        <span>95%</span>
+                                    </div>
+                                    <div class="progress"><span style="width: 95%"></span></div>
+                                    <div class="skill-row">
+                                        <span>Node.js</span>
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="progress"><span style="width: 88%"></span></div>
+                                    <div class="skill-row">
+                                        <span>MongoDB</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="progress"><span style="width: 85%"></span></div>
+                                </div>
+                            </div>
+
+                            <div class="skill-box">
+                                <div class="skill-box__header">
+                                    <div class="skill-title">Designer</div>
+                                    <i class="uil uil-angle-down"></i>
+                                </div>
+                                <div class="skill-list">
+                                    <div class="skill-row">
+                                        <span>Figma</span>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="progress"><span style="width: 90%"></span></div>
+                                    <div class="skill-row">
+                                        <span>UI/UX</span>
+                                        <span>88%</span>
+                                    </div>
+                                    <div class="progress"><span style="width: 88%"></span></div>
+                                    <div class="skill-row">
+                                        <span>Wireframing</span>
+                                        <span>85%</span>
+                                    </div>
+                                    <div class="progress"><span style="width: 85%"></span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+
+                <aside class="sidebar">
+                    <div class="sidebar-card">
+                        <h3>Qualification</h3>
+                        <ul>
+                            <li><span>2018</span><strong>Computer engineering</strong></li>
+                            <li><span>2020</span><strong>Full Stack Developer</strong></li>
+                            <li><span>2022</span><strong>UX Designer</strong></li>
+                        </ul>
+                    </div>
+
+                    <div class="sidebar-card" id="services">
+                        <h3>Services</h3>
+                        <div class="service-grid">
+                            <div class="service-item">
+                                <i class="uil uil-web-grid"></i>
+                                <span>Design</span>
+                            </div>
+                            <div class="service-item">
+                                <i class="uil uil-arrow-growth"></i>
+                                <span>Branding</span>
+                            </div>
+                            <div class="service-item">
+                                <i class="uil uil-wrench"></i>
+                                <span>Development</span>
+                            </div>
+                            <div class="service-item">
+                                <i class="uil uil-megaphone"></i>
+                                <span>Marketing</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card" id="portfolio">
+                        <h3>Portfolio</h3>
+                        <div class="portfolio-preview">
+                            <div class="project-grid">
+                                <article class="project-card" data-title="Veloura Bistro" data-tag="Restaurant" data-image="assets/img/portfolio1.jpg" data-gallery="assets/img/portfolio1.jpg|assets/img/portfolio2.jpg|assets/img/portfolio3.jpg" data-link="https://example.com/veloura-bistro" data-description="Reservation-driven dining website with premium menu layout, a strong local branding identity, and a smooth customer booking flow for restaurants and cafes.">
+                                    <div class="project-thumb">
+                                        <img src="assets/img/portfolio1.jpg" alt="Restaurant website design preview">
+                                    </div>
+                                    <div class="project-content">
+                                        <span class="project-tag">Restaurant</span>
+                                        <h4>Veloura Bistro</h4>
+                                        <p>Reservation-driven dining website with premium menu layout and polished brand visuals.</p>
+                                        <button type="button" class="project-view-btn">View</button>
+                                    </div>
+                                </article>
+
+                                <article class="project-card" data-title="Blush &amp; Bloom" data-tag="Beauty" data-image="assets/img/portfolio2.jpg" data-gallery="assets/img/portfolio2.jpg|assets/img/portfolio1.jpg|assets/img/portfolio3.jpg" data-link="https://example.com/blush-bloom" data-description="Luxury salon brand site created to attract premium clients through elegant visuals, service packages, and streamlined appointment booking.">
+                                    <div class="project-thumb">
+                                        <img src="assets/img/portfolio2.jpg" alt="Hairstylist brand project preview">
+                                    </div>
+                                    <div class="project-content">
+                                        <span class="project-tag">Beauty</span>
+                                        <h4>Blush &amp; Bloom</h4>
+                                        <p>Luxury salon brand site for bookings, services, and client trust-building.</p>
+                                        <button type="button" class="project-view-btn">View</button>
+                                    </div>
+                                </article>
+
+                                <article class="project-card" data-title="Glow Atelier" data-tag="Makeup" data-image="assets/img/portfolio3.jpg" data-gallery="assets/img/portfolio3.jpg|assets/img/portfolio2.jpg|assets/img/portfolio1.jpg" data-link="https://example.com/glow-atelier" data-description="Creative beauty portfolio for bridal and event makeup work, featuring image-led storytelling, service packages, and social proof to convert bookings.">
+                                    <div class="project-thumb">
+                                        <img src="assets/img/portfolio3.jpg" alt="Makeup artist portfolio preview">
+                                    </div>
+                                    <div class="project-content">
+                                        <span class="project-tag">Makeup</span>
+                                        <h4>Glow Atelier</h4>
+                                        <p>Creative beauty portfolio highlighting bridal work, transformations, and service packages.</p>
+                                        <button type="button" class="project-view-btn">View</button>
+                                    </div>
+                                </article>
+
+                                <article class="project-card" data-title="Maison Ella" data-tag="Fashion" data-image="assets/img/portfolio1.jpg" data-gallery="assets/img/portfolio1.jpg|assets/img/portfolio3.jpg|assets/img/portfolio2.jpg" data-link="https://example.com/maison-ella" data-description="Modern clothing storefront focused on product storytelling, curated collections, and a polished shopping experience ideal for lifestyle brands.">
+                                    <div class="project-thumb">
+                                        <img src="assets/img/portfolio1.jpg" alt="Clothing store project preview">
+                                    </div>
+                                    <div class="project-content">
+                                        <span class="project-tag">Fashion</span>
+                                        <h4>Maison Ella</h4>
+                                        <p>Modern clothing storefront with product storytelling, collections, and conversion-focused layout.</p>
+                                        <button type="button" class="project-view-btn">View</button>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card">
+                        <h3>Testimonials</h3>
+                        <div class="testimonial-list">
+                            <div class="testimonial-card">
+                                <div class="testimonial-head">
+                                    <div class="avatar-wrap"><img src="assets/img/testimonial1.jpg" alt="Sarah Wilson"></div>
+                                    <div class="testimonial-meta">
+                                        <strong>Sarah Wilson</strong>
+                                        <span>Product Manager</span>
+                                    </div>
+                                </div>
+                                <p>
+                                    Emma transformed our product experience with thoughtful design and reliable execution. The process was seamless and the results were outstanding.
+                                </p>
+                            </div>
+
+                            <div class="testimonial-card">
+                                <div class="testimonial-head">
+                                    <div class="avatar-wrap"><img src="assets/img/testimonial2.jpg" alt="Michael Chen"></div>
+                                    <div class="testimonial-meta">
+                                        <strong>Michael Chen</strong>
+                                        <span>Startup Founder</span>
+                                    </div>
+                                </div>
+                                <p>
+                                    From planning to launch, Emma brought clarity, speed, and quality. She helped us turn a rough concept into a polished digital product.
+                                </p>
+                            </div>
+
+                            <div class="testimonial-card">
+                                <div class="testimonial-head">
+                                    <div class="avatar-wrap"><img src="assets/img/testimonial3.jpg" alt="Alicia Gomez"></div>
+                                    <div class="testimonial-meta">
+                                        <strong>Alicia Gomez</strong>
+                                        <span>Marketing Lead</span>
+                                    </div>
+                                </div>
+                                <p>
+                                    I get a great impression from her work: thoughtful, responsive, and incredibly detail-focused. Support was excellent from day one.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-card contact-card" id="contact">
+                        <h3>Contact Me</h3>
+
+                        <div class="contact-links">
+                            <a href="mailto:emmahenry282@gmail.com">emmahenry282@gmail.com</a>
+                            <a href="tel:+1234567890">+1 (234) 567-890</a>
+                        </div>
+
+                        <form class="contact-form" id="contact-form" data-email="emmahenry282@gmail.com" data-endpoint="https://formspree.io/f/mwlpblvj" method="POST" novalidate>
+                            <div class="form-field">
+                                <label for="contact-name">Name</label>
+                                <input id="contact-name" name="name" type="text" placeholder="Your name" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="contact-email">Email</label>
+                                <input id="contact-email" name="email" type="email" placeholder="Your email" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="contact-subject">Subject</label>
+                                <input id="contact-subject" name="subject" type="text" placeholder="Project or inquiry" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="contact-message">Message</label>
+                                <textarea id="contact-message" name="message" placeholder="Tell me about your project..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="button button--primary">Send Message</button>
+                            <p class="form-status" id="contact-status" aria-live="polite"></p>
+                        </form>
+                    </div>
+
+                    <footer class="footer-bar">
+                        <div class="footer-brand">Emma</div>
+                        <div class="footer-social">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="uil uil-facebook-f"></i></a>
+                            <a href="https://www.instagram.com/" target="_blank"><i class="uil uil-instagram"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="uil uil-twitter-alt"></i></a>
+                        </div>
+                    </footer>
+                </aside>
+            </div>
+        </div>
+
+        <div class="project-modal" id="project-modal" aria-hidden="true">
+            <div class="project-modal__backdrop" data-close="modal"></div>
+            <div class="project-modal__content" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+                <button type="button" class="project-modal__close" aria-label="Close project details">
+                    <i class="uil uil-times"></i>
+                </button>
+                <div class="project-modal__image-wrap">
+                    <img id="project-modal-image" src="assets/img/portfolio1.jpg" alt="Project preview">
+                </div>
+                <div class="project-modal__body">
+                    <span class="project-tag" id="project-modal-tag">Restaurant</span>
+                    <h4 id="project-modal-title">Project Title</h4>
+                    <p id="project-modal-description">Project description</p>
+
+                    <div class="project-modal__gallery" id="project-modal-gallery" aria-label="Project gallery"></div>
+
+                    <div class="project-modal__actions">
+                        <a id="project-modal-link" href="https://example.com" target="_blank" rel="noopener noreferrer" class="project-modal__visit">Visit Website</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="scrollup" id="scroll-up" aria-label="Scroll to top">
+            <i class="uil uil-arrow-up"></i>
+        </a>
+
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
